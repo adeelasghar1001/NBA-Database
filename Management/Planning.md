@@ -1,63 +1,46 @@
 # Project Planning Document
-
-Include this Markdown file in the "Management" folder of your git repository and edit it accordingly.
-
+Include this Markdown file in the "Management" folder of your git 
+repository and edit it accordingly.
 ## List of tasks and high level modules
-
-Based on your project design and prototype, make a list of the modules and tasks to do.
-
+Based on your project design and prototype, make a list of the modules and 
+tasks to do.
 Here an example:
-
 ### Architecture
-
-3 Layers:
-* DB
-* GUI
-* Model
-
-
+2 Layers:
+*  DB
+*  GUI
 ### Modules
-
-* Login
-* Create
-* Edit / Delete
-* Search
-
+*  Create
+*  Edit / Delete
+*  Search
 ### Tasks
-
-* Design OOP Structural Model
-* Test technologies
-* Development
-* Testing
-
+*  Design GUI interface
+*  Design/Choose database
+*  Link database with GUI
 This is just an example, your tasks should be more detailed.
-
-
-
 ## Gantt Chart
-
-Assign concrete tasks to each team member and plan your time using a Gantt Chart.
-
+Assign concrete tasks to each team member and plan your time using a Gantt 
+Chart.
 ## Research state of the art projects
+Go online and search for open source projects written in Python that do 
+what your team want to do.
+Complete this table one row for each project. You should list at least one 
+project for each team member (i.e. you should research at four different 
+projects if your team has four team members)
 
-Go online and search for open source projects written in Python that do what your team want to do.
+| Project Name with URL                                                    | List of Features 			| Technology                                  | Requirements   | Researcher |
+|--------------------------------------------------------------------------|----------------------------|---------------------------------------------|----------------|------------|
+| NHL Game predictor [https://github.com/UBC-MDS/nhl-game-predictor.git]   | Predicts winner  			| Python library, R Library, Machine learning | Python, Docker | ev3024     |
+| NBA Player Movements https://github.com/linouk23/NBA-Player-Movements.git| Animated player movements. | Python, Animated                            | Python		   | ga7177     |                  |                                             |                |            |
+|                                                                          |                  			|                                             |                |            |
+
+You can now import Markdown table code directly using File/Paste table data... dialog.
 
 
-Complete this table one row for each project. You should list at least one project for each team member (i.e. you should research at four different projects if your team has four team members)
-
-
-| Project name with URL        | List of Features                | Technology                                 | Requirements          | Researcher                                 |
-|------------------------------|---------------------------------|--------------------------------------------|-----------------------|--------------------------------------------|
-| [Project name 1](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 2](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 3](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 4](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 4](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 4](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 4](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-| [Project name 4](http://URL) | feature 1, feature 2, feature 3 | modules, architectures, frameworks, etc... | OS, modules, versions | Access ID of student who found this source |
-
-If you have difficulties finding projects similar to your project, search for different projects
-but related (similar games, CRUD projects for different business, data analysis for different data, etc... ). You can also search for projects written in another language that you master.
-
-[This website can help you to edit Markdown tables](https://www.tablesgenerator.com/markdown_tables#)
+If you have difficulties finding projects similar to your project, search 
+for different projects
+but related (similar games, CRUD projects for different business, data 
+analysis for different data, etc... ). You can also search for projects 
+written in another language that you master.
+[This website can help you to edit Markdown 
+tables](https://www.tablesgenerator.com/markdown_tables#)
