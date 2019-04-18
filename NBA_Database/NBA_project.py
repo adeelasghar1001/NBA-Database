@@ -15,10 +15,10 @@ def printTeam(x):
 loc = "C:\\Users\\micha\\OneDrive\\Desktop\\Central.xlsx"
 
 wb = xlrd.open_workbook(loc)
-sheet = wb.sheet_by_index(3)
+sheet = wb.sheet_by_index(0) # For central 0 = Bucks, 1 = Bulls, 2 = Cavs, 3 = Pacers, 4 = Pistons
 
 #print information
-print("Detroit Pistons Player Stats")
+print("Milwaukee Bucks Player Stats")
 printTeam(sheet)
 
 print("\nWhat would you like to do? \n1. Add Player \n2. Edit Player \n3. Remove Player \n4. Back To Main Menu")
