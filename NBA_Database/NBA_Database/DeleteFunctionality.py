@@ -1,8 +1,11 @@
 
 # for display
 import pandas as pd
-df = pd.read_excel("C:\\Users\\basha\\Desktop\\Python\\northwest.xlsx",sheet_name = "Denver")
+df = pd.read_excel("C:\\Users\\basha\\Desktop\\Python\\northwest.xlsx", sheet_name = "Denver")
+print("Welcome to the Denver Nuggest roster!")
+print("")
 print(df)
+print("")
 
 #print(df.to_dict())
 
@@ -11,127 +14,126 @@ print(df)
     #nested if statements to select what to edit
     #break
 
-print("Welcome to the Denver Nuggest roster!")
-menu = str(input("Press anything to continue | Press e to exit | : "))
+
+menu = str(input("Press anything to continue | Press q to exit | : "))
 
 
 
-while menu != 'e':
-    choose = str(input("Please enter a player name (Type Exact) | Press e to exit | : ")) #player name
-    if(choose != 'e'):
-        ch1 = str(input("Edit player or Delete player (Type edit or delete): ")) #Edit or Delete
+while menu != 'q':
+    choose = str(input("Please enter a Rank Number to select player with corresponding rank | Press e to exit | : ")) #player name
+    if(choose != 'q'):
+        ch1 = str(input("Edit player or Delete player (Type e-(edit) or d-(delete): ")) #Edit or Delete
 
-        if(choose == 'Jamal Murray'):
-            if (ch1 == "edit"):
+        if(choose == '0'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([0])
-              # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Jamal Murray has been deleted!")
                print(df)
-        if(choose == 'Nikola Jokic'):
-            if (ch1 == "edit"):
+        if(choose == '1'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([1])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Nikola Jokic has been Deleted!")
                print(df)
-        if(choose == 'Gary Harris'):
-            if (ch1 == "edit"):
+        if(choose == '2'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([2])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Gary Harris has been Deleted!")
                print(df)
 
-        if(choose == 'Will Barton'):
-            if (ch1 == "edit"):
+        if(choose == '3'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([3])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Will Barton has been Deleted!")
                print(df)
 
-        if(choose == 'Paul Millsap'):
-            if (ch1 == "edit"):
+        if(choose == '4'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([4])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Paul Millsap has been Deleted!")
                print(df)
 
-        if(choose == 'Monte Morris'):
-            if (ch1 == "edit"):
+        if(choose == '5'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([5])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Monte Morris has been Deleted!")
                print(df)
 
-        if(choose == 'Malik Beasley'):
-            if (ch1 == "edit"):
+        if(choose == '6'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([6])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Malik Beasley has been Deleted!")
                print(df)
 
-        if(choose == 'Mason Plumlee'):
-            if (ch1 == "edit"):
+        if(choose == '7'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([7])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Mason Plumlee has been Deleted!")
                print(df)
 
-        if(choose == 'Torrey Craig'):
-            if (ch1 == "edit"):
+        if(choose == '8'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([8])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Torrey Craig has been Deleted!")
                print(df)
 
-        if(choose == 'Juan Hernangomez'):
-            if (ch1 == "edit"):
+        if(choose == '9'):
+            if (ch1 == "e"):
                 print("Select a Category: points, rebounds, assists")
-            if(ch1=="delete"):
+            if(ch1=="d"):
                 #add delete row logic
                 #as well as save sheet
                df = df.drop([9])
               # df = df[df.Name != 'Jamal Murry']
-               print(choose, " has been Deleted!")
+               print("Juan Hernangomez has been Deleted!")
                print(df)
 
 
 
-    if(choose == 'e'):
+    if(choose == 'q'):
             print("GoodBye!")
             break
         
