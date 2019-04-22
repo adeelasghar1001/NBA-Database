@@ -86,7 +86,7 @@ class Ui_MainWindow(object):
             self.incorrectLabel.hide()
 
             try:
-                df = pd.read_excel("Denver.xlsx")
+                df = pd.read_excel("NBA TEAMS//Denver.xlsx")
             except:
                 print("File not found")
 
@@ -100,7 +100,7 @@ class Ui_MainWindow(object):
             self.incorrectLabel.hide()
 
             try:
-                df = pd.read_excel("Portland.xlsx")   
+                df = pd.read_excel("NBA TEAMS//Portland.xlsx")   
             except:
                 print("File not found")
 
@@ -111,7 +111,7 @@ class Ui_MainWindow(object):
             self.window.show()
         elif 'Utah' in value:
             self.incorrectLabel.hide()
-            df = pd.read_excel("Utah.xlsx")
+            df = pd.read_excel("NBA TEAMS//Utah.xlsx")
             value2="Utah"
             self.window = QtWidgets.QMainWindow()
             self.ui = Ui_page2()
@@ -119,7 +119,7 @@ class Ui_MainWindow(object):
             self.window.show()
         elif 'Oklahoma' in value:
             self.incorrectLabel.hide()
-            df = pd.read_excel("Oklahoma.xlsx")   
+            df = pd.read_excel("NBA TEAMS//Oklahoma.xlsx")   
             value2="Oklahoma"
             self.window = QtWidgets.QMainWindow()
             self.ui = Ui_page2()
@@ -127,12 +127,214 @@ class Ui_MainWindow(object):
             self.window.show()
         elif 'Minnesota' in value:
             self.incorrectLabel.hide()
-            df = pd.read_excel("Minnesota.xlsx") 
+            df = pd.read_excel("NBA TEAMS//Minnesota.xlsx") 
             value2="Minnesota"
             self.window = QtWidgets.QMainWindow()
             self.ui = Ui_page2()
             self.ui.setupUi(self.window)
             self.window.show()
+
+        elif 'Atlanta' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Atlanta.xlsx") 
+            value2="Atlanta"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Boston' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Boston.xlsx") 
+            value2="Boston"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Brooklyn' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Brooklyn.xlsx") 
+            value2="Brooklyn"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Charlotte' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Charlotte.xlsx") 
+            value2="Charlotte"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Chicago' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Chicago.xlsx") 
+            value2="Chicago"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Cleveland' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Cleveland.xlsx") 
+            value2="Cleveland"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Dallas' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Dallas.xlsx") 
+            value2="Dallas"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Detroit' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Detroit.xlsx") 
+            value2="Detroit"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Golden State' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//GoldenState.xlsx") 
+            value2="Golden State"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Houston' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Houston.xlsx") 
+            value2="Houston"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Indiana' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Indiana.xlsx") 
+            value2="Indiana"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Los Angeles Clippers' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//LosAngelesClippers1.xlsx") 
+            value2="Los Angeles Clippers"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Los Angeles Lakers' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//LosAngelesLakers1.xlsx") 
+            value2="Los Angeles Lakers"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Memphis' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Memphis.xlsx") 
+            value2="Memphis"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Miami' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Miami.xlsx") 
+            value2="Miami"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Milwaukee' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Milwaukee.xlsx") 
+            value2="Milwaukee"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'New Orleans' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//NewOrleans.xlsx") 
+            value2="New Orleans"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'New York' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//NewYork.xlsx") 
+            value2="New York"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Orlando' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Orlando.xlsx") 
+            value2="Orlando"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Phoenix' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Pheonix.xlsx") 
+            value2="Phoenix"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Philadelphia' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Philadelphia.xlsx") 
+            value2="Philadelphia"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Sacramento' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Sacramento.xlsx") 
+            value2="Sacramento"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'San Antonio' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//SanAntonio.xlsx") 
+            value2="San Antonio"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Toronto' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Toronto.xlsx") 
+            value2="Toronto"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+        elif 'Washington' in value:
+            self.incorrectLabel.hide()
+            df = pd.read_excel("NBA TEAMS//Washington.xlsx") 
+            value2="Washington"
+            self.window = QtWidgets.QMainWindow()
+            self.ui = Ui_page2()
+            self.ui.setupUi(self.window)
+            self.window.show()
+   
         else:
             self.incorrectLabel.show()
 
