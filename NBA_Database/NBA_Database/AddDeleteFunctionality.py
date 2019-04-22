@@ -1,7 +1,6 @@
-
 # for display
 import pandas as pd
-df = pd.read_excel("C:\\Users\\basha\\Desktop\\Python\\northwest.xlsx", sheet_name = "Denver")
+df = pd.read_excel("C:\\Users\\Adeel Asghar\\Desktop\\NBA-Database\\Northwest Division.xlsx", sheet_name = "Denver")
 print("Welcome to the Denver Nuggest roster!")
 print("")
 print(df)

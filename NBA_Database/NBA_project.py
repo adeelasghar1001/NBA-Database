@@ -47,7 +47,7 @@ def showMenu():
     print("\nWhat would you like to do? \n1. Add Player \n2. Edit Player \n3. Remove Player \n4. Back To Main Menu")
     
 #location of file
-loc = "C:\\Users\\micha\\OneDrive\\Desktop\\Central.xls"
+loc = "C:\\Users\\Adeel Asghar\\Desktop\\NBA-Database\\Northwest Division.xlsx"
 
 rb = xlrd.open_workbook(loc) # open excel file
 
