@@ -34,6 +34,15 @@ def EditPlayer(x):
     nEdit = float(input("Enter new stat: ")) 
     x.write(playerEdit,sEdit, nEdit)
 
+def removePlayer(x, r):
+    remove = int(input("Choose a player to remove (Enter rank): "))
+    if (remove == r):
+        for i in range(8):
+            x.write(remove,i,"")
+    else:
+        for i in range(8):
+            
+
 def showMenu():
     print("\nWhat would you like to do? \n1. Add Player \n2. Edit Player \n3. Remove Player \n4. Back To Main Menu")
     
@@ -58,3 +67,8 @@ c = int(input("Select an option: "))
 if (c == 2):
     EditPlayer(sheet)
     wb.save(loc)
+elif (c == 3):
+    numRows = rb.nrows
+    removePlayer(sheet, numRows)
+    wb.save(loc)
+
