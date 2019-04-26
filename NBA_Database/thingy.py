@@ -654,8 +654,8 @@ class Ui_page2(object):
             self.tableView.setShowGrid(True)
             self.tableView.setSortingEnabled(True)
         
-            df.to_excel(value2 + ".xlsx", engine='xlsxwriter', index=False)
-            df = pd.read_excel(value2+".xlsx")
+            df.to_excel("NBA TEAMS//" + value2 + ".xlsx", engine='xlsxwriter', index=False)
+            df = pd.read_excel("NBA TEAMS//" +value2+".xlsx")
             model = PandasModel(df)
             self.tableView.setModel(model)
             self.tableView.resizeColumnsToContents()
@@ -675,8 +675,8 @@ class Ui_page2(object):
         i7 = int(self.pointsEdit.text())
         df.loc[rk] = [i1, i2, i3, i4, i5, i6, i7]
         
-        df.to_excel(value2 + ".xlsx", engine='xlsxwriter', index=False)
-        df = pd.read_excel(value2+".xlsx")
+        df.to_excel("NBA TEAMS//" + value2 + ".xlsx", engine='xlsxwriter', index=False)
+        df = pd.read_excel("NBA TEAMS//" +value2+".xlsx")
         model = PandasModel(df)
         self.tableView.setModel(model)
         self.tableView.resizeColumnsToContents()
@@ -690,8 +690,8 @@ class Ui_page2(object):
         
         df.loc[df['Name']==pName, [typeState]] = valueStat
         
-        df.to_excel(value2 + ".xlsx", engine='xlsxwriter', index=False)
-        df = pd.read_excel(value2+".xlsx")
+        df.to_excel("NBA TEAMS//" + value2 + ".xlsx", engine='xlsxwriter', index=False)
+        df = pd.read_excel("NBA TEAMS//" + value2+".xlsx")
         model = PandasModel(df)
         self.tableView.setModel(model)
         self.tableView.resizeColumnsToContents()
